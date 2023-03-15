@@ -1,7 +1,7 @@
 #include "Ball.h"
 
 Ball::Ball(Score* score1, Score* score2, Paddle_player* player1, Paddle_player* player2) {
-    this->Load("../Pong - Game/Graphics/Sprites/ball2.png");
+    this->Load("Graphics/Sprites/ball2.png");
     this->score1 = score1;
     this->score2 = score2;
     this->player1 = player1;

@@ -2,7 +2,7 @@
 
 Paddle_player::Paddle_player(int playerNumber){ 
     this->playerNumber = playerNumber;
-        this->Load("../Pong - Game/Graphics/Sprites/paddle51.png");
+        this->Load("Graphics/Sprites/paddle51.png");
 }
 
 void Paddle_player::Update() {

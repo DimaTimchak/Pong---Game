@@ -15,7 +15,7 @@ Paddle_ai::Paddle_ai(int playerNumber, int difficulty) {
         this->speed = 1.43f * PADDLE_SPEED;
         break;
     }
-    this->Load("../Pong - Game/Graphics/Sprites/paddle52.png");
+    this->Load("Graphics/Sprites/paddle52.png");
 }
 
 void Paddle_ai::setBall(Ball* ballObject) {

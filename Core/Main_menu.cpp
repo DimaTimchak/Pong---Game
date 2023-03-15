@@ -6,9 +6,9 @@ void Main_menu::Initialize(sf::RenderWindow* window) {
     this->scale = 1;
     this->scaleInc = 0.004f;
 
-    this->back = new Background("../Pong - Game/Graphics/cosmos.jpg");
+    this->back = new Background("Graphics/cosmos.jpg");
     this->font = new sf::Font();
-    this->font->loadFromFile("../Pong - Game/Graphics/OuterspaceMilitia.otf");
+    this->font->loadFromFile("Graphics/OuterspaceMilitia.otf");
 
     this->title = new sf::Text("Ping", *this->font, 240U);
     this->title->setOrigin(this->title->getGlobalBounds().width / 2, this->title->getGlobalBounds().height / 2);

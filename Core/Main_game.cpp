@@ -5,14 +5,14 @@ Main_game::Main_game(int mode) : Tiny_state() {
 }
 
 void Main_game::Initialize(sf::RenderWindow* window) {
-    this->back = new Background("../Pong - Game/Graphics/cosmos.jpg");
+    this->back = new Background("Graphics/cosmos.jpg");
     this->font = new sf::Font();
-    this->font->loadFromFile("../Pong - Game/Graphics/font1.otf");
+    this->font->loadFromFile("Graphics/font1.otf");
     this->pausedFont = new sf::Font();
-    this->pausedFont->loadFromFile("../Pong - Game/Graphics/OuterspaceMilitia.otf");
+    this->pausedFont->loadFromFile("Graphics/OuterspaceMilitia.otf");
 
     this->scoreFont = new sf::Font();
-    this->scoreFont->loadFromFile("../Pong - Game/Graphics/ChosenceRegular.otf");
+    this->scoreFont->loadFromFile("Graphics/ChosenceRegular.otf");
     this->score1 = new Score(*scoreFont, 64U);
     this->score1->setFillColor(sf::Color(204, 14, 197));
     this->score2 = new Score(*scoreFont, 64U);
